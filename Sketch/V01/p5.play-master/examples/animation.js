@@ -12,8 +12,6 @@ function preload() {
   //pass the first and the last file name and it will try to find the ones in between
   ghost = loadAnimation('assets/ghost_standing0001.png', 'assets/ghost_standing0007.png');
 
-  //create an animation listing all the images files
-  asterisk = loadAnimation('assets/asterisk.png', 'assets/triangle.png', 'assets/square.png', 'assets/cloud.png', 'assets/star.png', 'assets/mess.png', 'assets/monster.png');
 }
 
 function setup() {
@@ -26,5 +24,4 @@ function draw() {
   //specify the animation instance and its x,y position
   //animation() will update the animation frame as well
   animation(ghost, 300, 150);
-  animation(asterisk, 500, 150);
 }
